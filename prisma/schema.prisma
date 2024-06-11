@@ -13,7 +13,7 @@ datasource db {
   url      = env("DATABASE_URL")
 }
 model info{
-  id Int  @id @default(autoincrement())
+  id  Int @id @default(autoincrement())
   name String
   color String
   fuel_type String
